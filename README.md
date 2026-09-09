@@ -6,14 +6,26 @@ A retail business analytics project using SQL, Python, and Power BI to analyze s
 
 This project analyzes retail sales data to understand revenue, profit, product performance, customer segments, and store performance using SQL, Python, and Power BI.
 
+## Dataset
+
+The dataset contains approximately 62,884 sales transaction records across multiple tables:
+
+- Sales
+- Customers
+- Products
+- Stores
+- Exchange Rates
+
+The data includes sales transactions, customer information, product details, store information, and exchange rates.
+
 ## Business Objectives
 
 - Analyze overall revenue and profit performance
 - Identify top-performing products and categories
 - Understand customer revenue contribution
 - Analyze store performance
-- Identify key business trends and insights
-- Build an interactive Power BI dashboard for decision-making
+- Identify important business trends
+- Build an interactive Power BI dashboard for business decision-making
 
 ## Tools & Technologies
 
@@ -24,60 +36,73 @@ This project analyzes retail sales data to understand revenue, profit, product p
 - Power BI
 - DAX
 
-## Key Analysis
+## SQL Analysis
 
-### Sales Performance
-- Total Revenue
-- Total Profit
-- Profit Margin
-- Revenue and Profit by Year
-- Monthly Revenue Trends
+The SQL analysis covers:
 
-### Product Analysis
-- Top Products by Revenue
-- Top Products by Profit
-- Category Performance
-- Top 3 Products by Category
+- Total revenue, cost, and profit
+- Revenue and profit by year
+- Monthly revenue trends
+- Top products by revenue and profit
+- Category-level revenue and profit
+- Top customers by revenue
+- Country-level revenue and profit
 
-### Customer Analysis
-- Top Customers by Revenue
-- Revenue by Gender
-- Revenue by Customer Age Group
+## Python Analysis
 
-### Store & Geographic Analysis
-- Revenue by Country
-- Store Performance
-- Top Stores by Revenue
+Python and Pandas were used for:
+
+- Data loading and exploration
+- Data cleaning and preprocessing
+- Data analysis
+- Grouping and aggregation
+- Identifying patterns and trends in the data
 
 ## Power BI Dashboard
 
 The dashboard contains two pages:
 
 ### 1. Executive Sales Overview
-Provides a high-level view of revenue, profit, orders, customers, yearly performance, category profitability, and country-level revenue.
+
+- KPI cards for Total Revenue, Total Profit, Profit Margin, Total Orders, and Total Customers
+- Revenue & Profit by Year – tracks yearly business performance
+- Profit Contribution by Category – identifies categories contributing most to profit
+- Revenue by Country – shows geographic revenue distribution
+- Key business insights
 
 ### 2. Product & Customer Insights
-Provides detailed insights into top products, customer demographics, age groups, store performance, and category-level product leaders.
 
-### Key Business Insights
+- Top 5 Products by Revenue – identifies highest-revenue products
+- Revenue by Gender – compares customer revenue contribution
+- Revenue by Customer Age Group – analyzes revenue across age segments
+- Top 5 Stores by Revenue – highlights best-performing stores
+- Top 3 Products by Category – identifies category-leading products
+
+## Key Business Insights
+
 - 2019 recorded the highest full-year revenue and profit.
-- Computers generated the highest profit contribution.
-- Customers aged 65+ generated the highest revenue.
+- Computers generated the highest profit contribution at approximately $11.3M.
+- Total profit reached approximately $32.7M with a 58.58% profit margin.
+- Customers aged 65+ generated the highest revenue at approximately $18.1M.
 - Female customers contributed a higher share of revenue than male customers.
-- Top-performing stores contributed a significant share of total revenue.
-  
+- Product performance varied across categories, with specific products emerging as category leaders.
+
 ## Project Structure
 
 ```text
 Retail-Business-Performance-Analytics/
 │
 ├── README.md
+│
 ├── SQL/
 │   └── maven_market_analytics.sql
+│
 ├── Python/
 │   └── Sales_data_analysis.ipynb
+│
 ├── PowerBI/
 │   └── Global_electronics_retailer.pbix
+│
 └── Screenshots/
     ├── Executive-Sales-Overview.png
     └── Product-Customer-Insights.png
