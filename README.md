@@ -70,6 +70,8 @@ The dashboard contains two pages:
 - Revenue by Country – shows geographic revenue distribution
 - Key business insights
 
+  ![Executive Sales Overview](Executive%20Sales%20Overview.png)
+
 ### 2. Product & Customer Insights
 
 - Top 5 Products by Revenue – identifies highest-revenue products
@@ -77,6 +79,8 @@ The dashboard contains two pages:
 - Revenue by Customer Age Group – analyzes revenue across age segments
 - Top 5 Stores by Revenue – highlights best-performing stores
 - Top 3 Products by Category – identifies category-leading products
+
+  ![Product & Customer Insights](Product%20%26%20Customer%20Insights.png)
 
 ## Key Business Insights
 
